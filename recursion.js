@@ -1,9 +1,9 @@
 const fibs = (iteration, numOne = 0, numTwo = 1)=> {
     if (iteration <= 0){
-        return numOne
+        return
     } else {
         console.log(numOne)
-        return fibs(iteration -1, numTwo, numOne + numTwo);
+        return fibs(iteration - 1, numTwo, numOne + numTwo);
     }
 }
 
