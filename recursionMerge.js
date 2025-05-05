@@ -22,10 +22,9 @@ const mergeSort = (array)=> {
                 rightIteration++;
             }
         }
-        console.log(sortedArray);
         return sortedArray
     }
 }
 
 let testArray = [3, 2, 1, 13, 8, 5, 0, 1];
-mergeSort(testArray);
+console.log(mergeSort(testArray));
